@@ -29,9 +29,27 @@ public class Users {
         this.uid = uid;
     }
 
+    public Users(String email, String name, String profileImage, String uid, String status) {
+        this.email = email;
+        this.name = name;
+        this.profileImage = profileImage;
+        this.uid = uid;
+        this.status = status;
+    }
+
     private String name;
     private String profileImage;
     private String uid;
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    private String status;
 
     public Users(){
 

@@ -35,8 +35,9 @@ android {
 dependencies {
 
     implementation("com.google.android.material:material:1.12.0")
+    implementation("com.github.bumptech.glide:glide:4.15.1")
 
-
+    implementation(libs.circleimageview)
 
     implementation(platform("com.google.firebase:firebase-bom:33.6.0"))
     implementation("com.google.firebase:firebase-analytics")
